@@ -16,6 +16,7 @@
   ],
   "engine": "node >= 8.0.0",
   "main": "index.js",
+  "typings": "index.d.ts",
   "repository": {
     "url": "git@github.com:bitpay/bitcore-wallet-client.git",
     "type": "git"
