@@ -134,7 +134,7 @@ declare module 'bitcore-wallet-client' {
 
     seedFromExtendedPublicKey(xPubkey: string, source: string, entropySourceHex: string, opts: Partial<extendedKeyToSeedOpts>): void;
 
-    export(opts: Partial<{password: string, noSign: boolean}>)
+    export(opts: Partial<{password: string, noSign: boolean}>): void;
 
     import(str: string): void
 
